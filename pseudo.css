@@ -1,0 +1,16 @@
+.conteiner{
+    height: 66px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transform: matrix(1, -0.03, 0, 1, 0, 0);
+/* transform modifica a div "retirado do figma" */
+}
+
+.header{
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: -50px;
+/* Margem negativa para a div conteiner sobre ponha o header, dando o efeito */
+}
+
