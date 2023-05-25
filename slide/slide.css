@@ -91,5 +91,25 @@ body{
     margin-right: 40px;
 }
 
+#radio1:checked ~ .navigetion-auto .auto-btn1{
+    background-color: #ffffff
+    ;
+}
 
+#radio2:checked ~ .navigetion-auto .auto-btn2{
+    background-color: #ffffff
+    ;
+}
+
+#radio3:checked ~ .navigetion-auto .auto-btn3{
+    background-color: #ffffff
+    ;
+}
+
+#radio4:checked ~ .navigetion-auto .auto-btn4{
+    background-color: #ffffff
+    ;
+}
+
+    
 
