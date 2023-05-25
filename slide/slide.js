@@ -3,8 +3,8 @@ document.getElementById("radio1").checked = true;
 
 setInterval( function(){
     nextImage();
-}, 2000 )
-// o "2000" é em milisegundos
+}, 5000 )
+// o "5000" é em milisegundos
 function nextImage(){
     count++;
     if(count>4){
@@ -14,3 +14,5 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 
 }
+
+// parte acima faz passar automatico os slides
